@@ -1,9 +1,12 @@
 The Ghost Models - Offroad Autonomy Segmentation
-This repository contains the final submission for the Duality AI Hackathon by The Ghost Models. Our solution utilizes a Triple-Model Hierarchical Pipeline with Multi-Scale Test Time Augmentation (TTA) to achieve robust semantic segmentation in novel desert environments.
+This repository contains the final submission for the IBA Hackathon (Duality AI) by The Ghost Models. Our solution utilizes a Triple-Model Hierarchical Pipeline with Multi-Scale Test Time Augmentation (TTA) to achieve robust semantic segmentation in novel desert environments.
 
-Download Weights: CLICK HERE TO DOWNLOAD MODELS
+🛑 Action Required: Download Model Weights
+Due to the high precision and size of our models, the .pth files exceed GitHub's 100MB limit.
 
-[Placement: Move the downloaded .pth files directly into the root directory of the project.](https://drive.google.com/drive/folders/1IQKnN4C5SCem53HjAhejYVagHg1rohSa)
+CLICK HERE TO DOWNLOAD MODELS
+
+Placement: Move the downloaded .pth files directly into the root directory of this project folder.
 
 📊 Final Results
 Adjusted mIoU: 0.3681
@@ -17,23 +20,16 @@ Key Innovation: Specialized Rock-Detection Micro-Model
 Ensure you have the competition environment ready:
 
 Bash
-
 conda activate EDU
-2. Repository & Model Weights
-Due to the high precision of our models, the .pth files exceed GitHub's 100MB limit.
-
-Clone the repo: git clone https://github.com/ahmed10-sys/The-Ghost-Models.git
-
-Download Weights: CLICK HERE TO DOWNLOAD MODELS
-
-[Placement: Move the downloaded .pth files directly into the root directory of the project.](https://drive.google.com/drive/folders/1IQKnN4C5SCem53HjAhejYVagHg1rohSa)
-
+2. Clone the Repository
+Bash
+git clone https://github.com/ahmed10-sys/The-Ghost-Models.git
+cd The-Ghost-Models
 🛠 Running the Project
 Scoring & Evaluation
 To reproduce our final leaderboard results and generate the Per-Class IoU breakdown, run the main testing script:
 
 Bash
-
 python test.py
 This script applies our hierarchical logic and Pyramid TTA to the test_public_80 dataset.
 
@@ -41,7 +37,6 @@ Interactive Frontend
 We have developed a frontend application to visualize the model's "Safe Path" planning in real-time:
 
 Bash
-
 python app.py
 🧠 Methodology
 Our pipeline consists of three specialized "expert" models:
