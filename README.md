@@ -4,7 +4,7 @@ This repository contains the final submission for the IBA Hackathon (Duality AI)
 🛑 Action Required: Download Model Weights
 Due to the high precision and size of our models, the .pth files exceed GitHub's 100MB limit.
 
-CLICK HERE TO DOWNLOAD MODELS
+[CLICK HERE TO DOWNLOAD MODELS](https://drive.google.com/drive/u/1/folders/1IQKnN4C5SCem53HjAhejYVagHg1rohSa)
 
 Placement: Move the downloaded .pth files directly into the root directory of this project folder.
 
