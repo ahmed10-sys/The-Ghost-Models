@@ -1,6 +1,10 @@
 The Ghost Models - Offroad Autonomy Segmentation
 This repository contains the final submission for the Duality AI Hackathon by The Ghost Models. Our solution utilizes a Triple-Model Hierarchical Pipeline with Multi-Scale Test Time Augmentation (TTA) to achieve robust semantic segmentation in novel desert environments.
 
+Download Weights: CLICK HERE TO DOWNLOAD MODELS
+
+[Placement: Move the downloaded .pth files directly into the root directory of the project.](https://drive.google.com/drive/folders/1IQKnN4C5SCem53HjAhejYVagHg1rohSa)
+
 📊 Final Results
 Adjusted mIoU: 0.3681
 
